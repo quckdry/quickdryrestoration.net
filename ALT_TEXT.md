@@ -1,0 +1,14 @@
+# Image Alt Text
+
+- `assets/logo/quickdry-logo.png`: QuickDry Restoration LLC
+- `assets/logo/iicrc-logo.webp`: IICRC
+- `assets/images/hero-split-composite.webp`: Composite hero image showing Imperial Valley landscape and QuickDry restoration technicians entering a home with drying equipment
+- `assets/images/hero-water-damage.webp`: Restoration equipment set up on wet hardwood flooring in a sunlit living room
+- `assets/images/equipment-dehumidifier-display.webp`: Close-up of a dehumidifier display showing indoor humidity
+- `assets/images/moisture-meter-wall.webp`: Gloved hand pressing a digital moisture meter against drywall
+- `assets/images/air-mover-hardwood.webp`: Commercial air mover running on hardwood flooring
+- `assets/images/thermal-camera-screen.webp`: Thermal camera screen showing moisture patterns along a wall
+- `assets/images/moisture-log-clipboard.webp`: Moisture log clipboard with a meter and pen on hardwood flooring
+- `assets/images/imperial-valley-landscape.webp`: Imperial Valley agricultural fields with palm trees and desert mountains in late afternoon light
+- `assets/images/doorway-equipment-setup.webp`: Restoration equipment visible through a doorway in a home
+- `assets/images/og-image.jpg`: QuickDry Restoration social share image with logo over water damage restoration equipment
