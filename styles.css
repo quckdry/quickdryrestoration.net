@@ -701,6 +701,106 @@ p {
   font-size: 0.86rem;
 }
 
+.city-page {
+  background: var(--paper);
+}
+
+.city-hero {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.city-hero .section-inner,
+.city-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.82fr);
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.city-hero .lede {
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.city-hero picture,
+.city-photo {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.city-hero img,
+.city-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.city-quick-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.city-quick-facts div,
+.city-card {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.city-quick-facts span,
+.city-card span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--teal);
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.city-quick-facts strong {
+  display: block;
+  line-height: 1.25;
+}
+
+.city-copy {
+  display: grid;
+  gap: 1rem;
+}
+
+.city-copy p,
+.city-card p {
+  color: var(--muted);
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.city-cta {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.city-cta .section-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.city-cta p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
 .stub-main {
   padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 5vw, 4rem);
 }
@@ -769,6 +869,9 @@ p {
   .method-grid,
   .insurance-grid,
   .bilingual-grid,
+  .city-hero .section-inner,
+  .city-feature,
+  .city-cta .section-inner,
   .final-cta .section-inner {
     grid-template-columns: 1fr;
   }
@@ -781,6 +884,8 @@ p {
   .services-grid,
   .method-cards,
   .audience-grid,
+  .city-grid,
+  .city-quick-facts,
   .footer-grid {
     grid-template-columns: 1fr;
   }

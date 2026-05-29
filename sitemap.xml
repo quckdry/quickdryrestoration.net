@@ -20,4 +20,28 @@
     <loc>https://quickdryrestoration.net/plumbing-partners/</loc>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://quickdryrestoration.net/el-centro/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quickdryrestoration.net/calexico/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quickdryrestoration.net/imperial/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quickdryrestoration.net/brawley/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quickdryrestoration.net/holtville/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quickdryrestoration.net/calipatria/</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
