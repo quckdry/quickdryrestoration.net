@@ -331,6 +331,16 @@ p {
   isolation: isolate;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgba(7, 17, 31, 0.88) 0%, rgba(7, 17, 31, 0.62) 44%, rgba(7, 17, 31, 0.18) 100%),
+    linear-gradient(0deg, rgba(7, 17, 31, 0.22), rgba(7, 17, 31, 0.22));
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -341,6 +351,7 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .hero-content {
@@ -451,6 +462,7 @@ p {
 .service-card img {
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  object-position: center;
 }
 
 .service-card .number,
@@ -499,6 +511,7 @@ p {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
+  object-position: center;
 }
 
 .photo-panel.vertical img {
@@ -671,13 +684,23 @@ p {
 
 .final-cta .section-inner {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px) auto;
   gap: 1.5rem;
   align-items: center;
 }
 
 .final-cta p {
   color: rgba(255, 255, 255, 0.78);
+}
+
+.cta-photo {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+}
+
+.cta-photo img {
+  aspect-ratio: 16 / 9;
 }
 
 .button.light {
@@ -970,7 +993,7 @@ p {
   }
 
   .hero-bg img {
-    object-position: 62% center;
+    object-position: 54% center;
   }
 
   .services-grid,

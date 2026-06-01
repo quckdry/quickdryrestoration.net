@@ -15,20 +15,20 @@ Static GitHub Pages site for `quickdryrestoration.net`.
 Current phone number:
 
 ```text
-(760) 897-9616
+(760) 332-4841
 ```
 
 Current `tel:` link value:
 
 ```text
-tel:+17608979616
+tel:+17603324841
 ```
 
 To change the phone number later, run both replacements from the repository root:
 
 ```bash
 perl -pi -e 's/\\(760\\) 897-9616/(760) 123-4567/g' index.html */index.html README.md
-perl -pi -e 's/tel:\\+17608979616/tel:+17601234567/g; s/"telephone": "\\+17608979616"/"telephone": "+17601234567"/g' index.html */index.html
+perl -pi -e 's/tel:\\+17603324841/tel:+17601234567/g; s/"telephone": "\\+17603324841"/"telephone": "+17601234567"/g' index.html */index.html
 ```
 
 Current email:
@@ -47,9 +47,9 @@ perl -pi -e 's/management@quickdryrestorationllc\\.biz/new-email@example.com/g' 
 
 - `index.html`: homepage
 - `styles.css`: shared styles
-- `assets/images/`: generated photography, WebP plus JPEG fallbacks
-- `assets/logo/`: original and optimized supplied logo PNG
-- `assets/favicons/`: favicon set derived from the supplied logo
+- `assets/images/`: generated technician-led photography, WebP plus JPEG fallbacks
+- `assets/logo/`: supplied QuickDry wide wordmark and supporting logo files
+- `assets/favicons/`: favicon set derived from the QuickDry droplet mark
 - `homeowners/`, `property-managers/`, `insurance-adjusters/`, `plumbing-partners/`: noindex audience stubs
 - city directories: noindex stubs for future city landing pages
 - `ALT_TEXT.md`: consolidated image alt text
@@ -59,6 +59,6 @@ perl -pi -e 's/management@quickdryrestorationllc\\.biz/new-email@example.com/g' 
 ## Do Not Publish As Final Until
 
 - The phone number and email are confirmed as launch-ready.
-- City pages are expanded with real local content or left noindex.
+- City pages are expanded with local content and are set to index.
 - Audience pages are expanded with real content or left noindex.
 - Any future testimonials, awards, carrier relationships, or response metrics are added only after they are real and documented.
