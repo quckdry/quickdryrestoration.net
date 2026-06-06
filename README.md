@@ -15,20 +15,20 @@ Static GitHub Pages site for `quickdryrestoration.net`.
 Current phone number:
 
 ```text
-(760) 332-4841
+(760) 348-8452
 ```
 
 Current `tel:` link value:
 
 ```text
-tel:+17603324841
+tel:+17603488452
 ```
 
 To change the phone number later, run both replacements from the repository root:
 
 ```bash
-perl -pi -e 's/\\(760\\) 897-9616/(760) 123-4567/g' index.html */index.html README.md
-perl -pi -e 's/tel:\\+17603324841/tel:+17601234567/g; s/"telephone": "\\+17603324841"/"telephone": "+17601234567"/g' index.html */index.html
+perl -pi -e 's/\\(760\\) 348-8452/(760) 123-4567/g' index.html */index.html README.md
+perl -pi -e 's/tel:\\+17603488452/tel:+17601234567/g; s/"telephone": "\\+17603488452"/"telephone": "+17601234567"/g' index.html */index.html
 ```
 
 Current email:

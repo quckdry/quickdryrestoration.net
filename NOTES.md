@@ -2,7 +2,7 @@
 
 - The site now uses `assets/logo/quickdry-logo.png`, the supplied wide transparent QuickDry Restoration wordmark, in the navigation and footer. The old `quickdry-logo-original.png` remains in the folder only as an archive file and is not referenced by the site.
 - The favicon set was already updated from the new droplet mark and was intentionally left unchanged during this pass.
-- The homepage uses `(760) 332-4841` in visible phone locations and `tel:+17603324841` in phone links.
+- The homepage uses `(760) 348-8452` in visible phone locations and `tel:+17603488452` in phone links.
 - The IICRC logo was downloaded from an official IICRC-hosted image URL discovered from `iicrc.org`; it is used in the utility bar and footer.
 - The hero now uses a technician-led arrival scene instead of the earlier split composite. The technicians are shown from behind approaching a homeowner at the door, with back-of-shirt branding and the dehumidifier rolled on its wheels with both hands on the handle.
 - The footer address is listed as `Imperial Valley, CA` because no street address was provided.
